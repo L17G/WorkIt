@@ -1,0 +1,302 @@
+@font-face {
+    font-family: 'Fraunces 144pt';
+    src:
+        url('../assets/fonts/Fraunces144ptS000-SemiBold.woff2') format('woff2'),
+        url('../assets/fonts/Fraunces144ptS000-SemiBold.woff') format('woff'),
+        url('../assets/fonts/Fraunces144ptS000-SemiBold.ttf') format('truetype');
+}
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    /* font-family: 'Fraunces 144pt', serif; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    height: 100%;
+}
+
+/* object #document svg path {
+    fill: blue;
+}  */
+.container {
+    max-width: 1130px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fbx {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background-image: url(../assets/images/bg/bg-violet.svg);
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-color: #FCF8FF;
+    background-position: center bottom;
+    background-size: cover;
+    max-height: 730px;
+    height: 100%;
+    padding-top: 56px;
+    position: relative;
+}
+
+
+.header_apply {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    color: #FFFFFF;
+    border-bottom: 3px solid #44FFA1;
+    transition: color ease-in-out .5s;
+
+}
+
+.header_apply:hover {
+    color: #44FFA1;
+}
+
+.header_top {
+    margin-bottom: 55px;
+}
+
+.header_bottom {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Fraunces 144pt';
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 80px;
+    color: #FFFFFF;
+    max-width: 635px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 37px;
+}
+
+.header_bottom h1 span {
+    position: relative;
+}
+
+.header_bottom h1 span::after {
+    content: '';
+    max-width: 243px;
+    height: 3px;
+    width: 100%;
+    background-color: #44FFA1;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+}
+
+.btn {
+    min-width: 160px;
+    height: 60px;
+    background: #44FFA1;
+    font-weight: 700;
+    letter-spacing: -0.18px;
+    color: #24053E;
+    padding: 14px 30px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #44FFA1;
+    transition: all ease-in-out .5s;
+}
+
+.btn:hover {
+    background: none;
+    color: #44FFA1;
+}
+
+.rings_left_top {
+    position: absolute;
+    top: 116px;
+}
+
+.rings_right_top {
+    position: absolute;
+    bottom: 235px;
+    right: 0px;
+}
+
+.header_phone {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -165px;
+
+}
+
+.main_bkg {
+    background-image: url(../assets/images/bg/bg-light.svg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    padding-top: 255px;
+    padding-bottom: 170px;
+}
+
+.main_bkg .describe article {
+    height: 308px;
+    width: 355px;
+    line-height: 32px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start
+}
+
+h2 {
+    font-family: 'Fraunces 144pt';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+    color: #24053E;
+    margin-bottom: 28px;
+}
+
+.number {
+    font-family: 'Fraunces 144pt';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    color: #24053E;
+    border: 1px solid #584D62;
+    border-radius: 30.5px;
+    width: 56px;
+    height: 56px;
+    justify-content: center;
+    margin-bottom: 56px;
+}
+
+.test_card {
+    width: 1112px;
+    height: 696px;
+    padding: 110px 0px;
+    position: relative;
+    margin-bottom: 122px;
+}
+
+.content {
+    width: 730px;
+    height: 413px;
+    background: #24053E;
+    padding: 64px;
+    bottom: -65px right 65px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.invite {
+    flex-direction: column;
+    align-items: start;
+}
+.invite p {
+    color: #FFFFFF;
+    font-weight: 400;
+    margin-bottom: 32px;
+    width: 602px;
+}
+
+.invite h2 {
+    font-size: 56px;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+
+.invite .btn {
+    min-width: 190px;
+    padding: 13px 25px 16px;
+    margin-left: 0;
+    margin-right: 0;
+}
+.invite img{
+    position: absolute;
+    right: 65px;
+    bottom: -65px;
+}
+.final {
+    height: 334px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 57px;
+}
+
+.social_pages {
+    gap: 28px;
+}
+
+.social_pages a div {
+    width: 20px;
+    height: 20px;
+    transition: color ease-in-out .5s;
+}
+
+.fb {
+    background-image: url(../assets/images/icons/icon-1.svg);
+}
+
+.fb:hover {
+    background-image: url(../assets/images/icons/icon-1-1.svg);
+}
+
+.twitter {
+    background-image: url(../assets/images/icons/icon-2.svg);
+}
+
+.twitter:hover {
+    background-image: url(../assets/images/icons/icon-2-1.svg);
+}
+
+.insta {
+    background-image: url(../assets/images/icons/icon-3.svg);
+}
+
+.insta:hover {
+    background-image: url(../assets/images/icons/icon-3-1.svg);
+}
